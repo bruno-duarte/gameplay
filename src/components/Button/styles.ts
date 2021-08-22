@@ -17,16 +17,4 @@ export const styles = StyleSheet.create({
         textAlign: 'center',
         fontFamily: theme.fonts.text500,
     },
-    iconWrapper: {
-        width: 50,
-        height: 50,
-        justifyContent: 'center',
-        alignItems: 'center',
-        borderRightWidth: 1,
-        borderColor: theme.colors.line,
-    },
-    icon: {
-        width: 24,
-        height: 18,
-    },
 });

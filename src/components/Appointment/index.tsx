@@ -37,7 +37,7 @@ export function Appointment({ data, ...rest } : Props) {
     const { primary, on } = theme.colors;
     
     return (
-        <RectButton>
+        <RectButton {...rest}>
             <View style={styles.container}>
                 <GuildIcon />
                 <View style={styles.content}>
